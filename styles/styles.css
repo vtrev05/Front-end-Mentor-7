@@ -1,0 +1,177 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+.textContent{
+    max-width: 400px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+}
+.span{
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.titleParagraph{
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 500px;
+    position: relative;
+    right: 40px;
+}
+.span2{
+    position: relative;
+    left: 65px;
+}
+.cards{
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.singleCard{
+    width: 540px;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: -2px 10px 20px -7px hsl(229, 6%, 66%);
+}
+.firstCard{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: relative;
+    left: 134px;
+    top: 50px;
+}
+.secondCard{
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.thirdCard{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    position: relative;
+    left: -200px;
+    top: 200px;
+}
+.fourthCard{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: relative;
+    right: 134px;
+    top: 50px;
+}
+.cardTitle{
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    left: 35px;
+    top: 5px;
+}
+.cardParagraph{
+    width: 70%;
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    left: 35px;
+    top: 5px;
+}
+.cardImage{
+    position: relative;
+    left: 235px;
+    top: 35px;
+}
+
+/* TABLET/IPAD DESIGN */
+
+@media (max-width: 1500px) {
+    body{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .textContent{
+        max-width: 80vw;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .title, .span{
+        font-size: 20px;
+    }
+    .titleParagraph{
+        font-size: 12px;
+        max-width: 25vw;
+        right: -280px;
+    }
+    .span2{
+        left: 0px;
+    }
+    .cards{
+        flex-direction: column;
+        min-height: 750px;
+    }
+    .singleCard{
+        max-width: 78vw;
+        height: 160px;
+    }
+    .firstCard{
+        border-top: 3px solid hsl(180, 62%, 55%);
+        margin-top: 10px;
+        left: -5px;
+        top: 0px;
+    }
+    .secondCard{
+        border-top: 3px solid hsl(0, 78%, 62%);
+        left: -5px;
+        bottom: -20px;
+    }
+    .thirdCard{
+        border-top: 3px solid hsl(34, 97%, 64%);
+        left: -5px;
+        top: 40px;
+    }
+    .fourthCard{
+        border-top: 3px solid hsl(212, 86%, 64%);
+        right: 5px;
+        top: 60px;
+    }
+    .cardTitle{
+        font-size: 15px;
+        left: 20px;
+        top: 0px;
+    }
+    .cardParagraph{
+        font-size: 10px;
+        left: 20px;
+        top: -10px;
+    }
+    .cardImage{
+        width: 12%;
+        left: 180px;
+        top: 5px;
+    }
+}
+
+/* MOBILE DESIGN */
+
+@media (max-width: 638px) {
+    .titleParagraph{
+        font-size: 12px;
+        max-width: 80vw;
+        right: auto;
+    }
+    .span2{
+        left: auto;
+    }
+}
