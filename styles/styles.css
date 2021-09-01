@@ -96,7 +96,7 @@ body{
 
 /* TABLET/IPAD DESIGN */
 
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
     body{
         margin-top: 50px;
         margin-bottom: 30px;
